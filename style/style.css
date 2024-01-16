@@ -73,6 +73,7 @@ nav {
 .nav-title {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -336,4 +337,40 @@ main {
     color: #FFF;
     font-size: 25px;
     font-weight: 800;
+}
+
+
+/* footer section*/
+footer {
+    background: rgba(19, 19, 24, 0.05);
+   
+}
+
+.footer-container {
+    margin: 70px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#footer-dese {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.icon i {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+}
+
+.hr {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 50px;
+}
+#footer-copyrite{
+
+    padding-bottom: 100px;
 }
