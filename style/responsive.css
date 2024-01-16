@@ -29,10 +29,10 @@
     .title{
         font-size: 20px;
     }
-    .popular-Toure{
+    .main-section{
         flex-direction: column;
     }
-    .populer-content,.popular-img {
+    .main-content,.popular-img {
         width: 100%;
     }
     .Choose-card-2{

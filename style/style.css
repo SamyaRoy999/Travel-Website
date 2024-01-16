@@ -40,9 +40,28 @@ body {
     margin-top: 24px;
 }
 
-/* sheary styles end*/
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
 
-header {}
+.main-content {
+    width: 50%;
+}
+
+
+.main-content ul {
+    padding: 17px;
+}
+
+.popular-img {
+    width: 50%;
+}
+
+/* sheary styles end*/
 
 nav {
     margin: 30px 70px;
@@ -146,31 +165,6 @@ main {
     margin: 70px;
 }
 
-/* popular-Toure-section */
-
-
-.popular-Toure {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 40px;
-}
-
-.populer-content {
-    width: 50%;
-}
-
-.popular-title {}
-
-.populer-content ul {
-    padding: 17px;
-}
-
-.popular-img {
-    width: 50%;
-}
-
 /* Destination section styles */
 
 /* .Destination{
@@ -243,4 +237,12 @@ main {
     font-weight: 800;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+/* Perfect Place */
+#Perfect-Place{
+    margin-top: 70px;
+}
+#li-desc{
+    font-weight: 700;
 }
