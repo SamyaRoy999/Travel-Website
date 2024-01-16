@@ -8,18 +8,41 @@
     .menu-icon {
         display: flex;
     }
-    .nav-title h3{
-        font-size: 20px;
-
-    }
     .nav-title img{
         width: 40px;
         height: 30px;
         
     }
     /* banner styles */
+    main{
+        margin: 20px;
+    }
+    
+    .banner-title{
+        font-size: 1.5rem;
+    }
     .banner {
         margin: 17px 20px; 
         padding: 32px 20px;
     }
+    /* main popular Toure */
+    .title{
+        font-size: 20px;
+    }
+    .popular-Toure{
+        flex-direction: column;
+    }
+    .populer-content,.popular-img {
+        width: 100%;
+    }
+    .Choose-card-2{
+        flex-direction: column;
+    }
+    
 }
+
+/* Destination section styles */
+
+/* .Destination{
+
+} */
