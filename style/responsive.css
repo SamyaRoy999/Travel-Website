@@ -25,6 +25,13 @@
         margin: 17px 20px; 
         padding: 32px 20px;
     }
+    .inpu-type{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .banner-form{
+        margin-top: 30px;
+    }
     /* main popular Toure */
     .title{
         font-size: 20px;
@@ -42,7 +49,13 @@
     .newsletter-section{
         flex-direction: column;
     }
-    
+    .Destination{
+        margin-top: 24px;
+    }
+    .top-img, .center-img ,.button-img{
+        flex-direction: column;
+    }
+
 }
 
 /* Destination section styles */
