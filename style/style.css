@@ -40,7 +40,7 @@ body {
     margin-top: 24px;
 }
 
-.main-section{
+.main-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +214,7 @@ main {
     max-width: 500px;
     padding: 30px;
     border-radius: 16px;
-   
+
 
 }
 
@@ -222,10 +222,12 @@ main {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
+
 #Choose-card-2 {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
+
 #Choose-card-3 {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -240,9 +242,98 @@ main {
 }
 
 /* Perfect Place */
-#Perfect-Place{
+#Perfect-Place {
     margin-top: 70px;
 }
-#li-desc{
+
+#li-desc {
     font-weight: 700;
+}
+
+/* newsletter-section */
+.newsletter-section {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 24px;
+}
+
+.newsletter-input {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    /* padding: 35px; */
+    padding: 20px;
+
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.input-name input {
+    margin-top: 30px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 320px;
+
+}
+
+.input-email input {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 12px;
+    width: 320px;
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+.newsletter-img img {
+    max-width: 100%;
+    /* max-width: 480px;
+    min-height: 340px; */
+}
+
+#btn-sub {
+    width: 100%;
+}
+
+.save {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    position: absolute;
+    padding: 20px 40px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-20deg);
+    margin-bottom: 48px;
+    margin-right: 10px;
+
+}
+
+.Travelcom {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Save-up {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 800;
 }

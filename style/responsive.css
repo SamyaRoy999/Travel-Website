@@ -38,6 +38,10 @@
     .Choose-card-2{
         flex-direction: column;
     }
+    /* .newsletter-section */
+    .newsletter-section{
+        flex-direction: column;
+    }
     
 }
 
