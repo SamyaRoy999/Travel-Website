@@ -42,6 +42,10 @@
     .main-content,.popular-img {
         width: 100%;
     }
+    .Choose-Us {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
     .Choose-card-2{
         flex-direction: column;
     }
@@ -52,10 +56,55 @@
     .Destination{
         margin-top: 24px;
     }
+    .discounts-banner{
+       /* padding: 180px 40px 40px 40px ;
+       border-radius: 30px; */
+      
+    }
     .top-img, .center-img ,.button-img{
         flex-direction: column;
     }
-
+    .time-deta {
+        min-width: 100%;
+        margin-top: 90px;
+        
+    }
+    .tore-text{
+        display: none;
+        
+    }
+    .footer-container{
+        margin: 30px 30px 0 30px;
+        padding-top: 30px;
+    }
+    #footer-copyrite{
+        padding-bottom: 33px;
+    }
+    .hr{
+        margin-bottom: 24px;
+    }
+    .icon i{
+        padding-top: 16px;
+    }
+    #Travelers-Say{
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .command-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .comment-card{
+        padding: 20px;
+    }
+    .comment-card-img img {
+        width: 70px;
+        height: 70px;
+    
+    }
+    .comment-card p{
+        padding: 10px;
+    }
 }
 
 /* Destination section styles */
